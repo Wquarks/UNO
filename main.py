@@ -239,7 +239,7 @@ while true :
             imlist.append(photo)
             #print(imlist)
             dessin=Canvas(fenetre,width=50,height=80,bg='black',bd=10)
-            dessin.create_image(37,50,image=imlist[-1])
+            dessin.create_image(37,50,image=imlist[-1]) #dessin.create_image(37,50,image="NomFichierImage"+imlist[-1])
         except:
             dessin=Canvas(fenetre,width=50,height=80,bg=couleurbg,bd=10)
             
